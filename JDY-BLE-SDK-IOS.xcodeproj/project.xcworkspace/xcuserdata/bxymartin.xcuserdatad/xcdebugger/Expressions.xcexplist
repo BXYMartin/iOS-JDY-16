@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__32-[TY_ViewController viewDidLoad]_block_invoke.109:TY_ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "current.activePeripheral">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[jdy_scan_ble_ViewController didRotateFromInterfaceOrientation:]:jdy_scan_ble_ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "tab.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[TY_ViewController viewDidLoad]_block_invoke.110:TY_ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "strength">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[TY_ViewController viewDidLoad]_block_invoke.105:TY_ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "current.activePeripheral.RSSI.intValue">
+            </PersistentString>
+            <PersistentString
+               value = "current.scan_rssi">
+            </PersistentString>
+            <PersistentString
+               value = "current">
+            </PersistentString>
+            <PersistentString
+               value = "strength">
+            </PersistentString>
+            <PersistentString
+               value = "_delegate.read_rssi_event">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RectangleIndicatorView operationFromValue:toValue:timeInterval:isShowAccessoryWhenFinished:]:RectangleIndicatorView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.centerValueLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[jdy_scan_ble_ViewController read_rssi_event]:jdy_scan_ble_ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "t.activePeripheral.RSSI.intValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__96-[RectangleIndicatorView changeIndicatorFromValue:toValue:isShowAccessoryWhenFinished:duration:]_block_invoke_2:RectangleIndicatorView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(fromValue-toValue)/(fromLineNumber - toLineNumber)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "mach_msg_trap:(null)">
+         <PersistentStrings>
+            <PersistentString
+               value = "[t get_connected_status]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[jdy_scan_ble_ViewController tableView:didSelectRowAtIndexPath:]:jdy_scan_ble_ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "aPeripheral8.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[TY_ViewController viewDidLoad]_block_invoke.103:TY_ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[t JDY_BLE_NAME]">
+            </PersistentString>
+            <PersistentString
+               value = "[t get_connected_status]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[TY_ViewController viewDidLoad]_block_invoke.107:TY_ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[t activePeripheral]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RectangleIndicatorView updateUI]:RectangleIndicatorView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "*valueString">
+            </PersistentString>
+            <PersistentString
+               value = "self.centerValueLabel.attributedText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RectangleIndicatorView changeIndicatorFromValue:toValue:isShowAccessoryWhenFinished:duration:]:RectangleIndicatorView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_centerValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

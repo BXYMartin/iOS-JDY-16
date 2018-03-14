@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1873C8E51EADB15E007D0D2C /* libJDY-BLE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1873C8E41EADB15E007D0D2C /* libJDY-BLE.a */; };
 		18E9DFBE1E4EDA0B002E0344 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9DFBD1E4EDA0B002E0344 /* main.m */; };
 		18E9DFC11E4EDA0B002E0344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9DFC01E4EDA0B002E0344 /* AppDelegate.m */; };
 		18E9DFC41E4EDA0B002E0344 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9DFC31E4EDA0B002E0344 /* ViewController.m */; };
@@ -15,6 +16,38 @@
 		18E9DFCC1E4EDA0B002E0344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9DFCA1E4EDA0B002E0344 /* LaunchScreen.storyboard */; };
 		18E9DFD71E4EDA0B002E0344 /* JDY_BLE_SDK_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9DFD61E4EDA0B002E0344 /* JDY_BLE_SDK_IOSTests.m */; };
 		18E9DFE21E4EDA0B002E0344 /* JDY_BLE_SDK_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9DFE11E4EDA0B002E0344 /* JDY_BLE_SDK_IOSUITests.m */; };
+		18E9E00B1E4EDB91002E0344 /* TY_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E0091E4EDB91002E0344 /* TY_ViewController.m */; };
+		18E9E00C1E4EDB91002E0344 /* TY_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E00A1E4EDB91002E0344 /* TY_ViewController.xib */; };
+		18E9E00F1E4EDB9B002E0344 /* jdy_scan_ble_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E00E1E4EDB9B002E0344 /* jdy_scan_ble_ViewController.m */; };
+		18E9E0191E4EDC5F002E0344 /* tm_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0111E4EDC5F002E0344 /* tm_img.png */; };
+		18E9E01A1E4EDC5F002E0344 /* wimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0121E4EDC5F002E0344 /* wimage.png */; };
+		18E9E01B1E4EDC5F002E0344 /* switch_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0131E4EDC5F002E0344 /* switch_img.png */; };
+		18E9E01C1E4EDC5F002E0344 /* massager100.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0141E4EDC5F002E0344 /* massager100.png */; };
+		18E9E01D1E4EDC5F002E0344 /* light_semitrans.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0151E4EDC5F002E0344 /* light_semitrans.png */; };
+		18E9E01E1E4EDC5F002E0344 /* SimpleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E0171E4EDC5F002E0344 /* SimpleTableViewCell.m */; };
+		18E9E01F1E4EDC5F002E0344 /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0181E4EDC5F002E0344 /* SimpleTableViewCell.xib */; };
+		18E9E0221E4EDCE8002E0344 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9E0211E4EDCE8002E0344 /* CoreBluetooth.framework */; };
+		18E9E0241E4EDCF8002E0344 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9E0231E4EDCF8002E0344 /* CoreLocation.framework */; };
+		18E9E0261E4EDD0B002E0344 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9E0251E4EDD0B002E0344 /* CoreData.framework */; };
+		18E9E0281E4EDD18002E0344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9E0271E4EDD18002E0344 /* Foundation.framework */; };
+		18E9E02C1E4EDEB9002E0344 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9E02B1E4EDEB9002E0344 /* QuartzCore.framework */; };
+		18E9E02E1E4EDECA002E0344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9E02D1E4EDECA002E0344 /* UIKit.framework */; };
+		18E9E0301E4EE126002E0344 /* JDY_BLE.h in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E0061E4EDB4C002E0344 /* JDY_BLE.h */; };
+		18E9E0361E4EE3AA002E0344 /* check_false.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0341E4EE3AA002E0344 /* check_false.png */; };
+		18E9E0371E4EE3AA002E0344 /* check_true.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0351E4EE3AA002E0344 /* check_true.png */; };
+		18E9E03B1E4EE3C2002E0344 /* switch_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E0381E4EE3C2002E0344 /* switch_img.png */; };
+		18E9E03D1E4EE3C2002E0344 /* light_semitrans.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E03A1E4EE3C2002E0344 /* light_semitrans.png */; };
+		18E9E0401E4EE3DF002E0344 /* open_image1000.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E03E1E4EE3DF002E0344 /* open_image1000.png */; };
+		18E9E0411E4EE3DF002E0344 /* close_image1000.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9E03F1E4EE3DF002E0344 /* close_image1000.png */; };
+		2E1DC19B2058C31C003E0757 /* faderTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DC1992058C31B003E0757 /* faderTrack.png */; };
+		2E1DC19C2058C31C003E0757 /* faderKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DC19A2058C31C003E0757 /* faderKey.png */; };
+		2E1DC1A12058C6A4003E0757 /* dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DC19D2058C6A4003E0757 /* dark@2x.png */; };
+		2E1DC1A22058C6A4003E0757 /* slider-track@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DC19E2058C6A4003E0757 /* slider-track@2x.png */; };
+		2E1DC1A32058C6A4003E0757 /* base@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DC19F2058C6A4003E0757 /* base@2x.png */; };
+		2E1DC1A42058C6A4003E0757 /* slider-fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DC1A02058C6A4003E0757 /* slider-fill@2x.png */; };
+		2E69222520578C1A0099A266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E69222420578C1A0099A266 /* Assets.xcassets */; };
+		2E69222A20578D280099A266 /* RectangleIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E69222720578D280099A266 /* RectangleIndicatorView.m */; };
+		2E69222B20578D280099A266 /* CircleIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E69222920578D280099A266 /* CircleIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1873C8E41EADB15E007D0D2C /* libJDY-BLE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libJDY-BLE.a"; sourceTree = "<group>"; };
 		18E9DFB91E4EDA0B002E0344 /* JDY-BLE-SDK-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JDY-BLE-SDK-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E9DFBD1E4EDA0B002E0344 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E9DFBF1E4EDA0B002E0344 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +85,43 @@
 		18E9DFDD1E4EDA0B002E0344 /* JDY-BLE-SDK-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JDY-BLE-SDK-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E9DFE11E4EDA0B002E0344 /* JDY_BLE_SDK_IOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDY_BLE_SDK_IOSUITests.m; sourceTree = "<group>"; };
 		18E9DFE31E4EDA0B002E0344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E9E0061E4EDB4C002E0344 /* JDY_BLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JDY_BLE.h; path = "JDY-BLE-SDK-IOS/JDY_BLE.h"; sourceTree = "<group>"; };
+		18E9E0081E4EDB91002E0344 /* TY_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TY_ViewController.h; sourceTree = "<group>"; };
+		18E9E0091E4EDB91002E0344 /* TY_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TY_ViewController.m; sourceTree = "<group>"; };
+		18E9E00A1E4EDB91002E0344 /* TY_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TY_ViewController.xib; sourceTree = "<group>"; };
+		18E9E00D1E4EDB9B002E0344 /* jdy_scan_ble_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jdy_scan_ble_ViewController.h; sourceTree = "<group>"; };
+		18E9E00E1E4EDB9B002E0344 /* jdy_scan_ble_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jdy_scan_ble_ViewController.m; sourceTree = "<group>"; };
+		18E9E0111E4EDC5F002E0344 /* tm_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tm_img.png; sourceTree = "<group>"; };
+		18E9E0121E4EDC5F002E0344 /* wimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wimage.png; sourceTree = "<group>"; };
+		18E9E0131E4EDC5F002E0344 /* switch_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_img.png; sourceTree = "<group>"; };
+		18E9E0141E4EDC5F002E0344 /* massager100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = massager100.png; sourceTree = "<group>"; };
+		18E9E0151E4EDC5F002E0344 /* light_semitrans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_semitrans.png; sourceTree = "<group>"; };
+		18E9E0161E4EDC5F002E0344 /* SimpleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewCell.h; sourceTree = "<group>"; };
+		18E9E0171E4EDC5F002E0344 /* SimpleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewCell.m; sourceTree = "<group>"; };
+		18E9E0181E4EDC5F002E0344 /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
+		18E9E0211E4EDCE8002E0344 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		18E9E0231E4EDCF8002E0344 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18E9E0251E4EDD0B002E0344 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18E9E0271E4EDD18002E0344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18E9E02B1E4EDEB9002E0344 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18E9E02D1E4EDECA002E0344 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E9E0341E4EE3AA002E0344 /* check_false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_false.png; sourceTree = "<group>"; };
+		18E9E0351E4EE3AA002E0344 /* check_true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_true.png; sourceTree = "<group>"; };
+		18E9E0381E4EE3C2002E0344 /* switch_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_img.png; sourceTree = "<group>"; };
+		18E9E03A1E4EE3C2002E0344 /* light_semitrans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_semitrans.png; sourceTree = "<group>"; };
+		18E9E03E1E4EE3DF002E0344 /* open_image1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_image1000.png; sourceTree = "<group>"; };
+		18E9E03F1E4EE3DF002E0344 /* close_image1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_image1000.png; sourceTree = "<group>"; };
+		2E1DC1992058C31B003E0757 /* faderTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faderTrack.png; sourceTree = "<group>"; };
+		2E1DC19A2058C31C003E0757 /* faderKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faderKey.png; sourceTree = "<group>"; };
+		2E1DC19D2058C6A4003E0757 /* dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark@2x.png"; sourceTree = "<group>"; };
+		2E1DC19E2058C6A4003E0757 /* slider-track@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-track@2x.png"; sourceTree = "<group>"; };
+		2E1DC19F2058C6A4003E0757 /* base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "base@2x.png"; sourceTree = "<group>"; };
+		2E1DC1A02058C6A4003E0757 /* slider-fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-fill@2x.png"; sourceTree = "<group>"; };
+		2E69222420578C1A0099A266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E69222620578D200099A266 /* CircleIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleIndicatorView.h; sourceTree = "<group>"; };
+		2E69222720578D280099A266 /* RectangleIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleIndicatorView.m; sourceTree = "<group>"; };
+		2E69222820578D280099A266 /* RectangleIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleIndicatorView.h; sourceTree = "<group>"; };
+		2E69222920578D280099A266 /* CircleIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +129,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E9E02E1E4EDECA002E0344 /* UIKit.framework in Frameworks */,
+				18E9E02C1E4EDEB9002E0344 /* QuartzCore.framework in Frameworks */,
+				18E9E0281E4EDD18002E0344 /* Foundation.framework in Frameworks */,
+				18E9E0261E4EDD0B002E0344 /* CoreData.framework in Frameworks */,
+				18E9E0241E4EDCF8002E0344 /* CoreLocation.framework in Frameworks */,
+				18E9E0221E4EDCE8002E0344 /* CoreBluetooth.framework in Frameworks */,
+				1873C8E51EADB15E007D0D2C /* libJDY-BLE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +159,14 @@
 		18E9DFB01E4EDA0B002E0344 = {
 			isa = PBXGroup;
 			children = (
+				18E9E0061E4EDB4C002E0344 /* JDY_BLE.h */,
+				1873C8E41EADB15E007D0D2C /* libJDY-BLE.a */,
+				18E9E0101E4EDC55002E0344 /* List_cell */,
 				18E9DFBB1E4EDA0B002E0344 /* JDY-BLE-SDK-IOS */,
 				18E9DFD51E4EDA0B002E0344 /* JDY-BLE-SDK-IOSTests */,
 				18E9DFE01E4EDA0B002E0344 /* JDY-BLE-SDK-IOSUITests */,
 				18E9DFBA1E4EDA0B002E0344 /* Products */,
+				18E9E0201E4EDCE8002E0344 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +183,9 @@
 		18E9DFBB1E4EDA0B002E0344 /* JDY-BLE-SDK-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				18E9E00D1E4EDB9B002E0344 /* jdy_scan_ble_ViewController.h */,
+				18E9E00E1E4EDB9B002E0344 /* jdy_scan_ble_ViewController.m */,
+				18E9E0071E4EDB83002E0344 /* 透传 */,
 				18E9DFBF1E4EDA0B002E0344 /* AppDelegate.h */,
 				18E9DFC01E4EDA0B002E0344 /* AppDelegate.m */,
 				18E9DFC21E4EDA0B002E0344 /* ViewController.h */,
@@ -138,6 +223,61 @@
 				18E9DFE31E4EDA0B002E0344 /* Info.plist */,
 			);
 			path = "JDY-BLE-SDK-IOSUITests";
+			sourceTree = "<group>";
+		};
+		18E9E0071E4EDB83002E0344 /* 透传 */ = {
+			isa = PBXGroup;
+			children = (
+				2E1DC19F2058C6A4003E0757 /* base@2x.png */,
+				2E1DC19D2058C6A4003E0757 /* dark@2x.png */,
+				2E1DC1A02058C6A4003E0757 /* slider-fill@2x.png */,
+				2E1DC19E2058C6A4003E0757 /* slider-track@2x.png */,
+				2E1DC19A2058C31C003E0757 /* faderKey.png */,
+				2E1DC1992058C31B003E0757 /* faderTrack.png */,
+				2E69222920578D280099A266 /* CircleIndicatorView.m */,
+				2E69222820578D280099A266 /* RectangleIndicatorView.h */,
+				2E69222720578D280099A266 /* RectangleIndicatorView.m */,
+				2E69222620578D200099A266 /* CircleIndicatorView.h */,
+				2E69222420578C1A0099A266 /* Assets.xcassets */,
+				18E9E03E1E4EE3DF002E0344 /* open_image1000.png */,
+				18E9E03F1E4EE3DF002E0344 /* close_image1000.png */,
+				18E9E0381E4EE3C2002E0344 /* switch_img.png */,
+				18E9E03A1E4EE3C2002E0344 /* light_semitrans.png */,
+				18E9E0341E4EE3AA002E0344 /* check_false.png */,
+				18E9E0351E4EE3AA002E0344 /* check_true.png */,
+				18E9E0081E4EDB91002E0344 /* TY_ViewController.h */,
+				18E9E0091E4EDB91002E0344 /* TY_ViewController.m */,
+				18E9E00A1E4EDB91002E0344 /* TY_ViewController.xib */,
+			);
+			name = "透传";
+			sourceTree = "<group>";
+		};
+		18E9E0101E4EDC55002E0344 /* List_cell */ = {
+			isa = PBXGroup;
+			children = (
+				18E9E0111E4EDC5F002E0344 /* tm_img.png */,
+				18E9E0121E4EDC5F002E0344 /* wimage.png */,
+				18E9E0131E4EDC5F002E0344 /* switch_img.png */,
+				18E9E0141E4EDC5F002E0344 /* massager100.png */,
+				18E9E0151E4EDC5F002E0344 /* light_semitrans.png */,
+				18E9E0161E4EDC5F002E0344 /* SimpleTableViewCell.h */,
+				18E9E0171E4EDC5F002E0344 /* SimpleTableViewCell.m */,
+				18E9E0181E4EDC5F002E0344 /* SimpleTableViewCell.xib */,
+			);
+			name = List_cell;
+			sourceTree = "<group>";
+		};
+		18E9E0201E4EDCE8002E0344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E9E02D1E4EDECA002E0344 /* UIKit.framework */,
+				18E9E02B1E4EDEB9002E0344 /* QuartzCore.framework */,
+				18E9E0271E4EDD18002E0344 /* Foundation.framework */,
+				18E9E0251E4EDD0B002E0344 /* CoreData.framework */,
+				18E9E0231E4EDCF8002E0344 /* CoreLocation.framework */,
+				18E9E0211E4EDCE8002E0344 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +347,7 @@
 				TargetAttributes = {
 					18E9DFB81E4EDA0B002E0344 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = XQ3U5XRT8L;
+						DevelopmentTeam = GQ9Z9X39Y3;
 						ProvisioningStyle = Automatic;
 					};
 					18E9DFD11E4EDA0B002E0344 = {
@@ -250,8 +390,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E9DFCC1E4EDA0B002E0344 /* LaunchScreen.storyboard in Resources */,
+				18E9E01F1E4EDC5F002E0344 /* SimpleTableViewCell.xib in Resources */,
+				18E9E0411E4EE3DF002E0344 /* close_image1000.png in Resources */,
+				18E9E0371E4EE3AA002E0344 /* check_true.png in Resources */,
+				18E9E03D1E4EE3C2002E0344 /* light_semitrans.png in Resources */,
+				18E9E01A1E4EDC5F002E0344 /* wimage.png in Resources */,
+				2E1DC1A12058C6A4003E0757 /* dark@2x.png in Resources */,
+				2E1DC1A42058C6A4003E0757 /* slider-fill@2x.png in Resources */,
+				2E1DC19B2058C31C003E0757 /* faderTrack.png in Resources */,
+				18E9E00C1E4EDB91002E0344 /* TY_ViewController.xib in Resources */,
+				18E9E03B1E4EE3C2002E0344 /* switch_img.png in Resources */,
+				2E1DC1A22058C6A4003E0757 /* slider-track@2x.png in Resources */,
+				18E9E01D1E4EDC5F002E0344 /* light_semitrans.png in Resources */,
 				18E9DFC91E4EDA0B002E0344 /* Assets.xcassets in Resources */,
+				18E9E0401E4EE3DF002E0344 /* open_image1000.png in Resources */,
+				18E9E01B1E4EDC5F002E0344 /* switch_img.png in Resources */,
 				18E9DFC71E4EDA0B002E0344 /* Main.storyboard in Resources */,
+				18E9E01C1E4EDC5F002E0344 /* massager100.png in Resources */,
+				18E9E0361E4EE3AA002E0344 /* check_false.png in Resources */,
+				2E69222520578C1A0099A266 /* Assets.xcassets in Resources */,
+				2E1DC19C2058C31C003E0757 /* faderKey.png in Resources */,
+				18E9E0191E4EDC5F002E0344 /* tm_img.png in Resources */,
+				2E1DC1A32058C6A4003E0757 /* base@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +436,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E69222A20578D280099A266 /* RectangleIndicatorView.m in Sources */,
+				18E9E0301E4EE126002E0344 /* JDY_BLE.h in Sources */,
+				2E69222B20578D280099A266 /* CircleIndicatorView.m in Sources */,
 				18E9DFC41E4EDA0B002E0344 /* ViewController.m in Sources */,
+				18E9E01E1E4EDC5F002E0344 /* SimpleTableViewCell.m in Sources */,
+				18E9E00F1E4EDB9B002E0344 /* jdy_scan_ble_ViewController.m in Sources */,
+				18E9E00B1E4EDB91002E0344 /* TY_ViewController.m in Sources */,
 				18E9DFC11E4EDA0B002E0344 /* AppDelegate.m in Sources */,
 				18E9DFBE1E4EDA0B002E0344 /* main.m in Sources */,
 			);
@@ -417,6 +583,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -427,11 +594,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XQ3U5XRT8L;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ9Z9X39Y3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "JDY-BLE-SDK-IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SDK.JDY-BLE-SDK-IOS";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JDY-BLE-SDK-IOS",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bxymartin.paperplus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -439,11 +617,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XQ3U5XRT8L;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ9Z9X39Y3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "JDY-BLE-SDK-IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SDK.JDY-BLE-SDK-IOS";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JDY-BLE-SDK-IOS",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bxymartin.paperplus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -516,6 +705,7 @@
 				18E9DFE81E4EDA0B002E0344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9DFE91E4EDA0B002E0344 /* Build configuration list for PBXNativeTarget "JDY-BLE-SDK-IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +714,7 @@
 				18E9DFEB1E4EDA0B002E0344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9DFEC1E4EDA0B002E0344 /* Build configuration list for PBXNativeTarget "JDY-BLE-SDK-IOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +723,7 @@
 				18E9DFEE1E4EDA0B002E0344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
